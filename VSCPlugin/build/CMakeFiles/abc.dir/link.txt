@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libabc.so -o libabc.so CMakeFiles/abc.dir/Plugin.cpp.o 
