@@ -3,13 +3,21 @@ using System.Collections;
 using System;
 using System.Runtime.InteropServices;
 
+/*
+ * Yikang note:  
+ * 
+ * To create multiple instances from a class, we can use map to manage the pointers, 
+ * either in C# or C++ code, balancing performance and convenience.
+ * 
+ */
+
 namespace App
 {
-	public class Calculator : MonoBehaviour
+	public class Game : MonoBehaviour
 	{
 		void Start ()
 		{
-			Debug.Log ("\n--------------Testing Calculator Start--------------");
+			Debug.Log ("\n--------------Testing Arithmetic Start--------------");
 			Debug.Log (ArithmeticWrapper.addition (5.0f, 4.0f));
 			Debug.Log (ArithmeticWrapper.substraction (10, 3));
 			Debug.Log (ArithmeticWrapper.multiplication (2, 5));
