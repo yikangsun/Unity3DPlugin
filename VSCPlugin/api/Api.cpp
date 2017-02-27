@@ -1,7 +1,7 @@
 
 #include "Api.h"
-#include "Arithmetic.h"
-#include "Printer.h"
+#include "../Arithmetic.h"
+#include "../Printer.h"
 
 using namespace Math;
 
@@ -31,7 +31,7 @@ EXPORT_API float division(float val_1, float val_2)
 
 
 /*
- * call namespace's' global functions
+ * call namespace's global functions
  */
 
 const EXPORT_API char*  PrintHello()
